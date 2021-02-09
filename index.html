@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  <!--  stylesheet 👍 -->
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="./images/logo.svg" alt="">
+        </a>
+        <ul class="navbar__right">
+          <li><a href="/">Features</a></li>
+          <li><a href="/">Pricing</a></li>
+          <li><a href="/">Resources</a></li>
+        </ul>
+        <div class="navbar__left">
+          <button class="btn">Login</button>
+          <button class="btn btn-primary">Sign Up</button>
+        </div>
+        <div class="hamburger">
+          <img src="./images/icon-hamburger.svg" >
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Mobile NAV -->
+  <div class="mobileNav">
+    <div class="mobileNav__inner">
+      <ul>
+        <li class="moblie-link"><a href="/">Features</a></li>
+        <li class="moblie-link"><a href="/">Pricing</a></li>
+        <li class="moblie-link"><a href="/">Resources</a></li>
+      </ul>
+      <div>
+        <button class="btn btn-plain moblie-link">Login</button>
+        <button class="btn btn-primary moblie-link">Sign Up</button>
+      </div>
+    </div>
+  </div>
+  <!-- Banner -->
+  <section class="banner">
+    <div class="wrapper">
+      <div class="banner__innerContent">
+        <div class="banner__innerContent--left">
+          <h1>  More than just shorter links</h1>
+          <p>Build your brand’s recognition and get detailed insights 
+            on how your links are performing.</p>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+        <div class="banner__innerContent--right">
+          <img src="./images/illustration-working.svg" >
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Main content -->
+  <section class="main">
+    <div class="wrapper">
+      <div class="main__searchWrapper">
+        <div class="main__searchWrapper--inner">
+          <input type="text" class="main__searchWrapper--search" placeholder="Shorten a link here...">
+          <button class="btn btn-secondary">Shorten It!</button>
+
+        </div>
+      </div>
+      <div class="main__articlesWrapper">
+        <div class="links">
+          <div class="links__link">
+            <p class="long-url">Track-how-your-links-are-performing-across ...</p>
+            <p class="short-url">performing-across</p>
+            <button class="btn btn-secondary">copy!</button>
+          </div>
+          <div class="links__link">
+            <p class="long-url">Track-how-your-links-are-performing-across ...</p>
+            <p class="short-url">performing-across</p>
+            <button class="btn btn-secondary">copy!</button>
+          </div>
+        </div>
+        <div class="description">
+          <h1>Advanced Statistics</h1>
+          <p>Track how your links are performing across the web with our 
+            advanced statistics dashboard.</p>
+
+        </div>
+        <div class="main__articles">
+          <div class="main__articles--article a1">
+            <div class="icon">
+
+              <img src="./images/icon-brand-recognition.svg" >
+            </div>
+            <h4>Brand Recognition </h4>
+            <p>Boost your brand recognition with each click. Generic links don’t 
+              mean a thing. Branded links help instil confidence in your content.</p>
+          </div>
+          <div class="main__articles--article a2">
+            <div class="icon">
+
+              <img src="./images/icon-detailed-records.svg" >
+            </div>
+            <h4>Detailed Records </h4>
+            <p>Gain insights into who is clicking your links. Knowing when and where 
+              people engage with your content helps inform better decisions.</p>
+          </div>
+          <div class="main__articles--article a3">
+            <div class="icon">
+
+              <img src="./images/icon-fully-customizable.svg" >
+            </div>
+            <h4>Fully Customizable </h4>
+            <p>Improve brand awareness and content discoverability through customizable 
+              links, supercharging audience engagement.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="boost">
+    <div class="boost__inner">
+      <h1> Boost your links today</h1>
+      <button class="btn btn-primary"> Get Started</button>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__inner">
+          <img class="logo-white" src="./images/logo-white.svg" >
+          <nav>
+            <ul>
+              <li>Features</li>
+              <li>Link Shortening</li>
+              <li>Branded </li>
+              <li>Analytics</li>
+            </ul>
+            <ul>
+              <li>Resources</li>
+              <li>Blog</li>
+              <li>Developers</li>
+              <li>Support</li>
+            </ul>
+            <ul>
+              <li>Company</li>
+              <li>About</li>
+              <li>Our Team</li>
+              <li>Careers</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
+          <div class="social-links">
+            <img src="./images/icon-facebook.svg" >
+            <img src="./images/icon-twitter.svg" >
+            <img src="./images/icon-pinterest.svg" >
+            <img src="./images/icon-instagram.svg" >
+          </div>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://jolly-brahmagupta-20368c.netlify.app/">Joseph Nartey</a>.
+      </div>
+    </div>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+</html>
