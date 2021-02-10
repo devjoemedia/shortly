@@ -27,6 +27,11 @@ img {
   width: 100%;
 }
 
+.clear {
+  margin-bottom: 1rem;
+  display: none;
+}
+
 .btn {
   padding: 10px 30px;
   border: none;
@@ -385,6 +390,15 @@ header .navbar__right li a {
 
 .footer__inner .social-links img {
   margin-left: 1rem;
+}
+
+.attribution {
+  text-align: center;
+}
+
+.attribution a {
+  color: #2acfcf;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
